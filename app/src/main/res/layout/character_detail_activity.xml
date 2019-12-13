@@ -5,6 +5,7 @@
     android:id="@+id/charDetailLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/character_background"
     tools:context=".CharacterDetailActivity">
 
     <TextView
@@ -16,6 +17,7 @@
         android:text=""
         android:textSize="32dp"
         android:fontFamily="@font/greatadventurebold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,6 +30,7 @@
         android:text=""
         android:textSize="28sp"
         android:fontFamily="@font/greatadventurebold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
@@ -40,6 +43,7 @@
         android:text=""
         android:textSize="28sp"
         android:fontFamily="@font/greatadventurebold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/charName" />
 
@@ -67,6 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:textSize="24sp" />
 
@@ -75,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:layout_marginTop="8dp"
             android:textSize="24sp" />
@@ -84,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:layout_marginTop="8dp"
             android:textSize="24sp" />
@@ -93,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:layout_marginTop="8dp"
             android:textSize="24sp" />
@@ -102,6 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:layout_marginTop="8dp"
             android:textSize="24sp" />
@@ -111,6 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/greatadventurelight"
+            android:textColor="@color/black"
             android:text=""
             android:layout_marginTop="8dp"
             android:textSize="24sp" />
