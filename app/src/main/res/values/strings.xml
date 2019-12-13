@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">D&amp;DApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="classChoice">Choose your class:</string>
+    <string name="raceChoice">Choose your race:</string>
+    <string name="nameChoice">Enter a name for your character:</string>
+    <string name="dwarf">Dwarf</string>
+    <string name="elf">Elf</string>
+    <string name="human">Human</string>
+    <string name="orc">Orc</string>
+</resources>
