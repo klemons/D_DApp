@@ -26,7 +26,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="28sp"
         android:fontFamily="@font/greatadventurebold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -38,7 +38,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="28sp"
         android:fontFamily="@font/greatadventurebold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/charName" />
@@ -58,9 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/raceName">
 
@@ -68,49 +66,54 @@
             android:id="@+id/str"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/dex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:layout_marginTop="8dp"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/con"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:layout_marginTop="8dp"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/intell"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:layout_marginTop="8dp"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/wis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:layout_marginTop="8dp"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/cha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/greatadventurelight"
             android:text=""
-            android:textSize="24sp"
-            android:fontFamily="@font/greatadventurelight"/>
+            android:layout_marginTop="8dp"
+            android:textSize="24sp" />
     </LinearLayout>
 
 

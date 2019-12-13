@@ -41,11 +41,11 @@ class CharacterDetailActivity : AppCompatActivity() {
         val intView = findViewById<TextView>(R.id.intell)
         val wisView = findViewById<TextView>(R.id.wis)
         val chaView = findViewById<TextView>(R.id.cha)
-        strView.append("STR:" + characterBarb.getStrength())
-        dexView.append("DEX:" + characterBarb.getDexterity())
-        conView.append("CON:" + characterBarb.getConstitution())
-        intView.append("INT:" + characterBarb.getIntelligence())
-        wisView.append("WIS:" + characterBarb.getWisdom())
-        chaView.append("CHA:" + characterBarb.getCharisma())
+        strView.append("STR: " + characterBarb.getStrength() + " (" + characterBarb.getStrengthMod() +")")
+        dexView.append("DEX: " + characterBarb.getDexterity() + " (" + characterBarb.getDexterityMod() +")")
+        conView.append("CON: " + characterBarb.getConstitution() + " (" + characterBarb.getConstitutionMod() +")")
+        intView.append("INT: " + characterBarb.getIntelligence() + " (" + characterBarb.getIntelligenceMod() +")")
+        wisView.append("WIS: " + characterBarb.getWisdom() + " (" + characterBarb.getWisdomMod() +")")
+        chaView.append("CHA: " + characterBarb.getCharisma() + " (" + characterBarb.getCharismaMod() +")")
     }
 }
